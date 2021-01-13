@@ -83,7 +83,7 @@ function Teams(){
 
   let cards = teams.map(team => {
     return(
-      <Card className="text-center">
+      <Card>
         <CardHeader><h3>{team.name}</h3></CardHeader>
         <CardImg top src={team.img} className="team-flag" alt="Card image cap" />
       </Card>
@@ -92,8 +92,8 @@ function Teams(){
 
   return(
     <React.Fragment>
-      <h2>Teams</h2>
-      <div className="team-grid">
+      <h2 className="text-center my-5">Teams</h2>
+      <div className="team-grid text-center">
         {cards}
       </div>
     </React.Fragment>
