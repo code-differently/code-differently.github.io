@@ -7,3 +7,8 @@
 .App-header-Img {
   max-width: 40%;
 }
+
+.two-col-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
