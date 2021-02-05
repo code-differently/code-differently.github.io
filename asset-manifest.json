@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d671f03f.chunk.css",
-    "main.js": "/static/js/main.e0246bcb.chunk.js",
-    "main.js.map": "/static/js/main.e0246bcb.chunk.js.map",
+    "main.js": "/static/js/main.f9548223.chunk.js",
+    "main.js.map": "/static/js/main.f9548223.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ece46c09.js",
     "runtime-main.js.map": "/static/js/runtime-main.ece46c09.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
     "static/css/main.d671f03f.chunk.css.map": "/static/css/main.d671f03f.chunk.css.map",
     "static/js/2.c457df9b.chunk.js.LICENSE.txt": "/static/js/2.c457df9b.chunk.js.LICENSE.txt",
-    "static/media/FullstackFuture.704df20d.jpg": "/static/media/FullstackFuture.704df20d.jpg",
+    "static/media/FullstackFuture.d8a185a5.jpg": "/static/media/FullstackFuture.d8a185a5.jpg",
     "static/media/bitcoin.51b23fc3.png": "/static/media/bitcoin.51b23fc3.png",
     "static/media/cartoon.ece528ea.jpg": "/static/media/cartoon.ece528ea.jpg",
     "static/media/collab.b01e33ec.jpg": "/static/media/collab.b01e33ec.jpg",
@@ -26,6 +26,6 @@
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.c457df9b.chunk.js",
     "static/css/main.d671f03f.chunk.css",
-    "static/js/main.e0246bcb.chunk.js"
+    "static/js/main.f9548223.chunk.js"
   ]
 }
