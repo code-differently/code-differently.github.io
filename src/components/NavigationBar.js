@@ -24,12 +24,7 @@ const NavigationBar = (props) => {
               </NavItem>
               <NavItem>
                 <NavLink>
-                  <Link to="/quizes">Quizes</Link>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink>
-                  <a href="https://drive.google.com/drive/folders/1uzcmVwEjR_-Rxt-Pr2FDOwtCyhso5cud?usp=sharing" target="_blank">Recordings</a>
+                  <Link to="/resources">Resources</Link>
                 </NavLink>
               </NavItem>
             </Nav>
