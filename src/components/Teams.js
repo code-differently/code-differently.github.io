@@ -9,7 +9,9 @@ import dTeam from '../imgs/dW_d.jpg';
 import eTeam from '../imgs/everReady.png';
 import fTeam from '../imgs/FullstackFuture.jpg';
 
-let teams = [
+const Teams = () => { 
+
+  let teams = [
     {
       name: "<a>",
       img: aTeam
@@ -34,27 +36,25 @@ let teams = [
       name: "Full Stack Future",
       img: fTeam
     },
-]
-
-const Teams = (props) => { 
+  ]
     
-    let cards = teams.map(team => {
-      return(
-        <Card>
-          <CardHeader><h3>{team.name}</h3></CardHeader>
-          <CardImg top src={team.img} className="team-flag" alt="Card image cap" />
-        </Card>
-      )
-    })
-  
+  let cards = teams.map(team => {
     return(
-      <React.Fragment>
-        <h2 className="text-center my-5">Teams</h2>
-        <div className="team-grid text-center">
-          {cards}
-        </div>
-      </React.Fragment>
+      <Card>
+        <CardHeader><h3>{team.name}</h3></CardHeader>
+        <CardImg top src={team.img} className="team-flag" alt="Card image cap" />
+      </Card>
     )
+  })
+  
+  return(
+    <React.Fragment>
+      <h2 className="text-center my-5">Teams</h2>
+      <div className="team-grid text-center">
+        {cards}
+      </div>
+    </React.Fragment>
+  )
   
 }
 

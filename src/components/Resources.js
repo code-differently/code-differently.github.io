@@ -2,16 +2,18 @@
 import React from 'react';
 import { ListGroup, ListGroupItem, Button } from 'reactstrap';
 
-let slidesLink = {name: "Slides", link: "https://drive.google.com/drive/folders/1cWZWlJ1xLyYT4p1ya3EsNp-jErYAaehk?usp=sharing"};
+let slidesLink = {name: "Slides", link: "http://hex36.pythonanywhere.com/"};
 let recordingsLink = {name: "Recordings", link: "https://drive.google.com/drive/folders/1uzcmVwEjR_-Rxt-Pr2FDOwtCyhso5cud?usp=sharing"};
 
 let quizzes = [
   {name: "HTML", link: "https://docs.google.com/forms/d/e/1FAIpQLSfUAl70DV8qTLsPfiqUID5x9Ta21wnQgpbGUrw14bKA45jtxQ/viewform?usp=sf_link"},
   {name: "CSS", link: "https://docs.google.com/forms/d/e/1FAIpQLSerYIuekoEgVduyZrNUtb4mQi33jL13aOsve3MWgWda_-zulA/viewform?usp=sf_link"},
+  {name: "Bootstrap", link: "https://docs.google.com/forms/d/e/1FAIpQLSfp55M-TDhuAkK1aYByr79L5EEWCdlRwuAAsuRPL-UWQAFHkw/viewform?usp=sf_link"},
   {name: "HTML & CSS", link: "https://docs.google.com/forms/d/e/1FAIpQLSe94AlIx1fM-rdj36II3CBl7C5Z-EWwFsS97xb0iB4e7_rxuQ/viewform?usp=sf_link"},
   {name: "JS Basics", link: "https://docs.google.com/forms/d/e/1FAIpQLSc2taR4bKPslYNlWCjl2hXKX2kOUmDm7Rhiogo9dRfR975gmg/viewform?usp=sf_link"},
   {name: "JS Functions", link: "https://docs.google.com/forms/d/e/1FAIpQLSeRhk1kInoC7zp8LA75weZ1tgM4_-IBtex6y4IIqA22wfvBbA/viewform?usp=sf_link"},
-
+  {name: "Express: Part 1", link: "https://docs.google.com/forms/d/e/1FAIpQLSfb5dGPjKIhDMAopUHE78O8LD3Bhw2zygqNnOycc4eDrKa8hw/viewform?usp=sf_link"},
+  {name: "Express: Part 2", link: "https://docs.google.com/forms/d/e/1FAIpQLSc1XSpqb_g6Gus0mbBD8YVNddTG3mzXGwrrkjYdOn5OZws0nQ/viewform?usp=sf_link"}
 ]
 
 const Link = (props) => {
